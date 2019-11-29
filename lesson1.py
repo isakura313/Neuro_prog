@@ -47,14 +47,14 @@ assert_auto(kilometri, mili, lr, coefic, 500)
 #пускай немного неточно, но нам удалось добраться до тех значений которые мы хотели
 #Теперь попробуем эту штуку в вычислении коэфицента фаренгейта
 
-farengeit = 212
-celc = 100
+dium = 2.54
+cent = 1
 lr = 0.001
 
-assert_auto(celc, farengeit, lr, coefic, 5000)
+assert_auto(cent, dium, lr, coefic, 5000)
 
 print(0.6250000000000001*100)
-print(2.120999999999877*100)
+print(0.5*300)
 
 
 
